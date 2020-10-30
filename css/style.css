@@ -64,3 +64,14 @@ ul li.active a{
   color: #fff;
   font-size: 70px;
 }
+
+@mediascreenand(max-device-width:400px){
+　　.column{
+　　float:none;
+　　width:auto;
+　　}
+　　#sidebar{
+　　display:none;
+　　}
+　　}
+img,object{max-width:100%;}

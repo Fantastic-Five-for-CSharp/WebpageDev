@@ -94,3 +94,15 @@ tr:nth-child(odd){
   height: 400px;
   margin: 100px;
 }
+
+@mediascreenand(max-device-width:400px){
+　　.column{
+　　float:none;
+　　width:auto;
+　　}
+　　#sidebar{
+　　display:none;
+　　}
+　　}
+
+img,object{max-width:100%;}

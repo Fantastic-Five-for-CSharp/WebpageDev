@@ -112,3 +112,14 @@ ul li.active a{
   text-transform: uppercase;
   font-size: 22px;
 }
+
+@mediascreenand(max-device-width:400px){
+　　.column{
+　　float:none;
+　　width:auto;
+　　}
+　　#sidebar{
+　　display:none;
+　　}
+　　}
+img,object{max-width:100%;}
